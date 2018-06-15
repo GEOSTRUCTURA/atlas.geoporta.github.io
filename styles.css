@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+    color: #5555;
+    margin: 0;
+    font-family: 'Montserrat', 'sans-serif';
+    height: 782px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+#header {
+    height: 15%;
+    background-color: #581188;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+#header a:hover {
+    color: #222;
+}
+
+#header-title {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#header-subtitle {
+    clear: both;
+    font-size: 0.8;
+    font-weight: lighter;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+#header-nav li {
+    display: inline;
+    padding: 20px;
+}
+
+#map {
+    height: 75%;
+    width: 75%;
+    background-color: #222;
+    float: left;
+}
+
+#nav-bar {
+    height: 75%;
+    width: 25%;
+    background-color: #494040;
+    float: right;
+}
+
+#footer {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 10%;
+    background-color: #a1a1a1;
+    clear: both;
+}
+
+#footer p {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+#description-title {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+#description-text {
+    position: relative;
+    width: 300px;
+    text-align: justify;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-size: 0.8em;
+}
+
+#nav-bar p {
+    padding: 1px;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#atlas {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#geostructura {
+    position: fixed;
+    bottom: 20px;
+    right: 85px;
+    width: 202px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#ferrocarriles {
+    position: fixed;
+    bottom: 20px;
+    right: 325px;
+    width: 120px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#info {
+    height: 75%;
+    width: 100%;
+    background-color: #494040;
+    float: left;
+}
+
+#info p {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+
+.btn-control {
+    background-color: #3386c0;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    z-index: 1;
+    border: none;
+    width: 200px;
+    margin-left: -100px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.btn-control:hover {
+    background-color: #4ea0da;
+}
